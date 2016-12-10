@@ -30,7 +30,9 @@ for($i = 0; $i < count($data) - 1; $i++){
 	echo("[");
 	for($k = 0; $k < count($data); $k++){
 		echo($data[$k]);
-		if($k != count($data)-1){ echo(", "); }
+		if($k != count($data)-1){ 
+			echo(", "); 
+		}
 	}
 	echo("]<br>");
 }
@@ -40,7 +42,9 @@ echo("ソート後<br>");
 echo("[");
 for($i = 0; $i < count($data); $i++){
 	echo($data[$i]);
-	if($i != count($data)-1){ echo(", "); }
+	if($i != count($data)-1){
+		echo(", ");
+	}
 }
 echo("]<br>");
 ?>
