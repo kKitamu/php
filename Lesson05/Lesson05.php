@@ -9,8 +9,8 @@ $list[] = new Person("山田花子", "青森県", 80, "0170123456");
 $list[] = new Person("木村次郎", "京都府", 38, "0750123456");
 
 // 登録したデータを出力
-current($list)->print();
-next($list)->print();
-next($list)->print();
+foreach ($list as $value) {
+	$value->print();
+}
 
 ?>

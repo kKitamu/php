@@ -10,8 +10,8 @@ $list[] = new Employee("山田花子", 80, "金融システム部", "0170123456"
 $list[] = new Engineer("木村次郎", "京都府", 38, "PHP" ,"0750123456");
 
 // 登録したデータを出力
-current($list)->print();
-next($list)->print();
-next($list)->print();
+foreach ($list as $value) {
+	$value->print();
+}
 
 ?>
